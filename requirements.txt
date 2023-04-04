@@ -1,20 +1,24 @@
+--allow-all-external
 git+https://github.com/metashare/django.git@233117ea8786c711ba9ad34115e61077f4be65d6
-Unidecode==0.04.18
-django-analytical==0.22.0
+--allow-unverified Unidecode==0.04.18
+# Unidecode
+# django-analytical==0.22.0
+# django-analytical
 git+https://github.com/metashare/django-haystack.git@ea5dbd570f847ceb39ff741d9a27c77df09c9e3d
 # not needed in production
 #git+https://github.com/metashare/django-jenkins.git@e84f76ee7c940f35f761ced65ed7c97aa00b4acb
 git+https://github.com/metashare/django-kronos.git@f22f638120920b722edd7619d6a037289edc678e
 git+https://github.com/metashare/django-selectable.git@d8381086e8307257259a6cedf01d7fb2cbd34452
-django-selenium==0.9.7
-flup==1.0.3
-httplib2==0.9.1
-psycopg2==2.7.1
-pycountry==1.12
-pygeoip==0.3.2
-pysolr==2.1.0-beta
-python-dateutil==2.4.2
-requests==2.7.0
-selenium==2.46.0
-six==1.9.0
+--allow-unverified django-selenium==0.9.7
+# django-selenium
+--allow-unverified flup==1.0.3
+--allow-unverified httplib2==0.9.1
+--allow-unverified psycopg2==2.7.1
+--allow-unverified pycountry==1.12
+--allow-unverified pygeoip==0.3.2
+--allow-unverified pysolr==2.1.0-beta
+--allow-unverified python-dateutil==2.4.2
+--allow-unverified requests==2.7.0
+--allow-unverified selenium==2.46.0
+--allow-unverified six==1.9.0
 wsgiref==0.1.2
